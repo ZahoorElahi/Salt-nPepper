@@ -1,0 +1,551 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Apercu Pro', sans-serif;
+
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+header img {
+  height: 80px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0px 25px;
+}
+
+
+.Franchise {
+  background-color: black;
+  margin: 0px 12px 0px 0px;
+  border-radius: 35px;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 22px
+}
+
+.Order-Online {
+  background-color: #ed1c24;
+  margin: 0px 12px 0px 0px;
+  border-radius: 35px;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.Order-Online i {
+  font-size: 20px;
+  padding: 0px 5px
+}
+
+
+/* ------------hero-main----------- */
+
+.hero-main {
+  background-image: url(/imges/f1542832-c427-43bc-bee3-6e80af4d4569.webp);
+  height: 84dvh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: -2px;
+
+}
+
+/* welcome-salt-maim */
+
+.welcome-salt-maim {
+  background-color: black;
+  padding: 60px 0px;
+  margin-top: -2px;
+}
+
+.welcome-text {
+  text-align: center;
+}
+
+.welcome-text h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Apercu Pro', sans-serif;
+}
+
+.welcome-text h2 span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  color: #FFFFFF;
+  font-family: 'FUTHARK ', sans-serif;
+}
+
+.welcome-text h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Apercu Pro', sans-serif;
+  padding: 10px 0px;
+}
+
+.welcome-text p {
+  font-family: 'Apercu Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.7);
+
+}
+
+.welcome-img-main {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  padding: 30px 0px;
+  align-items: center;
+}
+
+.welcome-img-btn {
+  text-align: center;
+}
+
+.welcome-img-btn img {
+  width: 80%;
+  height: 130px;
+  background-color: #ffff;
+  border-radius: 3px;
+}
+
+.Franchise2 {
+  background-color: black;
+  margin: 0px 12px 0px 0px;
+  border-radius: 35px;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 15px 30px;
+  margin-bottom: 20px;
+
+}
+
+.Franchise3 {
+  background-color: black;
+  margin: 0px 12px 0px 0px;
+  border-radius: 35px;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 15px 20px;
+
+}
+
+.welcome-btn {
+  padding-bottom: 20px;
+}
+
+/* about-branches */
+.about-branches {
+  background-image: url(/imges/simg.webp);
+  background-color: black;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.about-rest-mai {
+  background-color: #0F0F0F;
+  padding: 40px 0px;
+  position: relative;
+}
+
+.rest-loaction {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 40px 0px 20px 0px;
+}
+
+.loaction-text h2 {
+  font-size: 20px;
+  color: #ed1c24;
+  font-family: 'Apercu Pro', sans-serif;
+  letter-spacing: 2px;
+
+}
+
+
+.loaction-text h1 {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Apercu Pro', sans-serif;
+  letter-spacing: 2px;
+  padding: 10px 0px;
+
+}
+
+.loaction-text p {
+  color: #B2B2B7;
+  padding: 10px 0px;
+}
+
+.loaction-text span {
+  color: #B2B2B7;
+  display: block;
+  padding-bottom: 100px;
+}
+
+.Order-Online1 {
+  background-color: #000000;
+  margin: 0px 12px 0px 0px;
+  border-radius: 35px;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.Order-Online1 i {
+  font-size: 20px;
+  padding: 0px 5px;
+
+}
+
+.simg {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+/* Express-Franchises */
+.Express-Franchises {
+  width: 100%;
+  background-color: #000000;
+}
+
+.Express-text {
+  text-align: center;
+}
+
+.Express-text h1 {
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Apercu Pro', sans-serif;
+  letter-spacing: 2px;
+  padding: 10px 0px;
+}
+
+.Express-text h2 {
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Apercu Pro', sans-serif;
+  letter-spacing: 2px;
+  padding: 10px 0px;
+}
+
+.Express-cities-main {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 30px;
+  padding: 40px 0px;
+}
+
+.Express-cities {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Express-cities img {
+  width: 100%;
+}
+
+.Express-cities h2 {
+  font-size: 20px;
+  color: #ed1c24;
+  font-family: 'Apercu Pro', sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  padding: 10px 0px;
+
+}
+
+.Express-cities h1 {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Apercu Pro', sans-serif;
+  letter-spacing: 2px;
+}
+
+.Express-cities p {
+  color: #B2B2B7;
+  padding: 10px 0px;
+}
+
+.Express-cities span {
+  color: #B2B2B7;
+  padding: 10px 0px;
+}
+
+/* Village-Franchise-main */
+.Village-Franchise-main {
+  width: 100%;
+  height: 100vh;
+  background-color: #0F0F0F;
+
+}
+
+.village-text {
+  text-align: center;
+}
+
+.village-text h1 {
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Apercu Pro', sans-serif;
+  letter-spacing: 2px;
+  padding: 10px 0px;
+}
+
+.village-text h2 {
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Apercu Pro', sans-serif;
+  letter-spacing: 2px;
+  padding: 10px 0px;
+}
+
+.vilg-img-main {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 0px;
+}
+
+
+
+.vlg-txt h2 {
+  font-size: 20px;
+  color: #ed1c24;
+  font-family: 'Apercu Pro', sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  padding: 10px 0px;
+
+}
+
+.vlg-txt h1 {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Apercu Pro', sans-serif;
+  letter-spacing: 2px;
+}
+
+.vlg-txt p {
+  color: #B2B2B7;
+  padding: 10px 0px;
+}
+
+.vlg-txt span {
+  color: #B2B2B7;
+  padding: 10px 0px;
+  display: block;
+  padding-bottom: 100px;
+}
+
+.Order-Online3 {
+  background-color: #28A745;
+  margin: 0px 12px 0px 0px;
+  border-radius: 35px;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+
+}
+
+.Order-Online3 i {
+  font-size: 30px;
+  padding: 0px 5px;
+
+}
+
+/* Opening-Soon-main */
+.Opening-Soon-main {
+  text-align: center;
+  background: #000;
+  padding: 40px 0px;
+}
+
+.Opening-Soon-main h1 {
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Apercu Pro', sans-serif;
+  letter-spacing: 2px;
+  padding: 10px 0px;
+}
+
+.Opening-Soon-main h2 {
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Apercu Pro', sans-serif;
+  letter-spacing: 2px;
+  padding: 10px 0px;
+}
+
+.Opening-Soon-main h2 span {
+  font-size: 30px;
+}
+
+.opening-loaction {
+  background-color: #ffff;
+  border-radius: 6px;
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.opening-loaction i {
+  color: #ed1c24;
+  background-color: #E7EAE7;
+  padding: 20px;
+  font-size: 40px;
+  border-radius: 50%;
+}
+
+.opening-loaction p {
+  font-size: 14px;
+  color: #ed1c24;
+  font-family: 'Apercu Pro', sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  padding: 10px 0px;
+}
+
+.opening-loaction h1 {
+  font-size: 25px;
+  color: #000000;
+}
+
+.opening-loaction h2 {
+  font-size: 20px;
+  color: #000000;
+}
+
+.opening-loaction h3 {}
+
+.Opening-Soon-divs {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* .Social-Feed-m */
+.Social-Feed-main {
+  width: 100%;
+  background-color: #000;
+  padding: 40px 0px;
+}
+
+.Social-Feed-img {
+  width: 22%;
+  display: flex;
+  gap: 10px;
+}
+
+.Social-Feed-img img {
+  width: 84%;
+  height: auto;
+  margin-left: 13px;
+}
+
+/* footer  */
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+}
+
+.column {
+  width: 23%;
+  box-sizing: border-box;
+  padding: 15px;
+  margin: 10px;
+  text-align: left;
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #ffcc00;
+}
+
+p {
+  color: #ccc;
+}
+
+.column p {
+  margin-bottom: 10px;
+  /* Adjust the value as needed for spacing between paragraphs */
+  line-height: 34px;
+  /* Adjust the value as needed for line spacing within each paragraph */
+}
+
+.footer-icon {
+  display: flex;
+  gap: 10px;
+  padding: 20px 0px;
+}
+
+.footer-icon i {
+ font-size: 30px;
+ background-color: #ed1c24;
+ padding: 10px;
+ border-radius: 50%;
+}

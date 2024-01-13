@@ -31,7 +31,9 @@ nav a {
   margin: 0px 25px;
 }
 
-
+.hero-main{
+  display: flex;
+}
 .Franchise {
   background-color: black;
   margin: 0px 12px 0px 0px;
